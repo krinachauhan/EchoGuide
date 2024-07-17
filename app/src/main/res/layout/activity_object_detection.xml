@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".objectDetectionActivity">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@drawable/designtop"-->
+<!--        android:id="@+id/lnrLayout">-->
+<!--        <TextView-->
+<!--            android:layout_marginVertical="30dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="EchoGuide"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#000"-->
+<!--            android:textSize="35dp"-->
+<!--            android:textAlignment="center"/>-->
+<!--    </LinearLayout>-->
+
+
+
+        <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_margin="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/imageView"
+        />
+
+    <!--    <Button-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#000"-->
+    <!--        android:text="Color detection"-->
+    <!--        android:textSize="25dp"-->
+    <!--        android:layout_marginTop="650sp"-->
+    <!--        android:id="@+id/btnColor"/>-->
+</RelativeLayout>

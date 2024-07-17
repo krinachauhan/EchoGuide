@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067359135354",
+    "project_id": "echoguide-50eb8",
+    "storage_bucket": "echoguide-50eb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067359135354:android:bdfc7babf073e222823dc3",
+        "android_client_info": {
+          "package_name": "com.example.echoguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKb4NVUupnFkDwJF7j86hTGdrogf5Es1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
